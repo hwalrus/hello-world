@@ -1,2 +1,2 @@
 # hello-world
-Some very intersting information
+Some very interesting information
