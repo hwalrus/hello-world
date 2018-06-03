@@ -12,6 +12,7 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src",
     "open:src": "babel-node buildScripts/app.js",
+    "lint": "esw src buildScripts",
     "security-check": "nsp check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
