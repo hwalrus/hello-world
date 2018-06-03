@@ -1,6 +1,6 @@
 import express from 'express';
 import path from 'path';
-import open from 'open';
+import opn from 'opn';
 
 const port = 3000;
 const app = express();
@@ -13,7 +13,7 @@ app.listen(port, function(err) {
     if (err) {
         console.log(err);
     } else {
-        open('http://localhost:' + port);
+        opn('http://localhost:' + port);
     }
 });
 
