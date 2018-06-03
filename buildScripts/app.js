@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import opn from 'opn';
+import chalk from 'chalk';
 
 const port = 3000;
 const app = express();
@@ -17,4 +18,4 @@ app.listen(port, function(err) {
     }
 });
 
-console.log("started the server");
+console.log(chalk.blueBright("started the express server"));
